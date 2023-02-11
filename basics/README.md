@@ -38,3 +38,11 @@
     
 - **Task 9: _Bye bye My first directory_**<br>
     [9-firstdirdeletion](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/9-firstdirdeletion) - asked for a script that _delete the directory my_first_directory that is in the /tmp directory_, here `rmdir /tmp/my_first_directory`
+
+- **Task 10: _Back to the future_**<br>
+    [10-back](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/10-back) - asked for a script that _changes the working directory to the previous one_, here `cd -`
+
+- **Task 11: _Lists_**<br>
+    [11-lists](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/11-lists) - asked for a script that _lists all files (even the hidden files) in the current directory, its parent and the /boot directory, in this order and in long format_, here `ls -la . .. /boot`, . is for the current directory and .. for its parent
+- **Task 12: _File type_**<br>
+    [12-file_type](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/12-file_type) - asked for a script that _prints the type of the file named iamafile (the file iamafile will be in the /tmp directory when we will run the script)_, here `file /tmp/iamafile`
