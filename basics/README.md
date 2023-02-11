@@ -30,3 +30,11 @@
 - **Task 6: _Welcome_**<br>
     [6-firstdirectory](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/6-firstdirectory) - asked for a script that _creates a directory named my_first_directory in the /tmp/ directory_, here `mkdir /tmp/my_first_directory`
     
+- **Task 7: _Betty in my first directory_**<br>
+    [7-movethatfile](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/7-movethatfile) - asked for a script that _move the file betty from /tmp/ to /tmp/my_first_directory_, here `mv /tmp/betty /tmp/my_first_directory`
+    
+- **Task 8: _Bye bye Betty_**<br>
+    [8-firstdelete](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/8-firstdelete) - asked for a script that _delete the file betty in /tmp/my_first_directory/betty_, here `rm /tmp/my_first_directory/betty`
+    
+- **Task 9: _Bye bye My first directory_**<br>
+    [9-firstdirdeletion](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/9-firstdirdeletion) - asked for a script that _delete the directory my_first_directory that is in the /tmp directory_, here `rmdir /tmp/my_first_directory`
