@@ -1,7 +1,7 @@
 # **SHELL, BASICS**
 ## **Documentation**
 <ul>
-  <li>[What is "the Shell"?](http://linuxcommand.org/lc3_lts0010.php)</li>
+  <li> [What is "the Shell"?](http://linuxcommand.org/lc3_lts0010.php) </li>
   <li>[Navigation](http://linuxcommand.org/lc3_lts0020.php)</li>
   <li>[Looking Around](http://linuxcommand.org/lc3_lts0030.php)</li>
   <li>[A Guided Tour](http://linuxcommand.org/lc3_lts0040.php)</li>
