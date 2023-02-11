@@ -8,6 +8,6 @@
 [Working with Commands](http://linuxcommand.org/lc3_lts0060.php)<br>
 [Keyboard Shortcuts for Shell](https://www.howtogeek.com/181/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)<br>
 
-## **Requirement**
-- Allowed Editors: emacs, vi or vim
-- 
+## **Tasks**
+- **Task 0: _Where am I?_**<br>
+    [0-current_working_directory](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/0-current_working_directory) - asked for a script that _prints the absolute path name of the current working directory_, here `pwd`
