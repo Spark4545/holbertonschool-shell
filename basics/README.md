@@ -13,7 +13,7 @@
     [0-current_working_directory](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/0-current_working_directory) - asked for a script that _prints the absolute path name of the current working directory_, here `pwd`
 
 - **Task 1: _What's in there?_**<br>
-    [1-listit](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/1-listit) - asked for a script that _display the contet=nts list of the current directory_, here `ls`
+    [1-listit](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/1-listit) - asked for a script that _display the contents list of the current directory_, here `ls`
     
 - **Task 2: _There is no place like home_**<br>
     [2-bring_me_home](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/2-bring_me_home) - asked for a script that _changes the working directory to the user's home directory_, here `cd`
@@ -28,21 +28,21 @@
     [5-listfilesdigitonly](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/5-listfilesdigitonly) - asked for a script that _display current directory contents, in long format, with user and group IDs displayed numerically, and hidden files_, here `ls -lan`, the option -n is for IDs
     
 - **Task 6: _Welcome_**<br>
-    [6-firstdirectory](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/6-firstdirectory) - asked for a script that _creates a directory named my_first_directory in the /tmp/ directory_, here `mkdir /tmp/my_first_directory`
+    [6-firstdirectory](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/6-firstdirectory) - asked for a script that _creates a directory named my_first_directory in the `/tmp/` directory_, here `mkdir /tmp/my_first_directory`
     
 - **Task 7: _Betty in my first directory_**<br>
-    [7-movethatfile](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/7-movethatfile) - asked for a script that _move the file betty from /tmp/ to /tmp/my_first_directory_, here `mv /tmp/betty /tmp/my_first_directory`
+    [7-movethatfile](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/7-movethatfile) - asked for a script that _move the file `betty` from `/tmp/` to `/tmp/my_first_directory`_, here `mv /tmp/betty /tmp/my_first_directory`
     
 - **Task 8: _Bye bye Betty_**<br>
-    [8-firstdelete](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/8-firstdelete) - asked for a script that _delete the file betty in /tmp/my_first_directory/betty_, here `rm /tmp/my_first_directory/betty`
+    [8-firstdelete](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/8-firstdelete) - asked for a script that _delete the file betty in `/tmp/my_first_directory/betty`_, here `rm /tmp/my_first_directory/betty`
     
 - **Task 9: _Bye bye My first directory_**<br>
-    [9-firstdirdeletion](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/9-firstdirdeletion) - asked for a script that _delete the directory my_first_directory that is in the /tmp directory_, here `rmdir /tmp/my_first_directory`
+    [9-firstdirdeletion](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/9-firstdirdeletion) - asked for a script that _delete the directory `my_first_directory` that is in the `/tmp` directory_, here `rmdir /tmp/my_first_directory`
 
 - **Task 10: _Back to the future_**<br>
     [10-back](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/10-back) - asked for a script that _changes the working directory to the previous one_, here `cd -`
 
 - **Task 11: _Lists_**<br>
-    [11-lists](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/11-lists) - asked for a script that _lists all files (even the hidden files) in the current directory, its parent and the /boot directory, in this order and in long format_, here `ls -la . .. /boot`, . is for the current directory and .. for its parent
+    [11-lists](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/11-lists) - asked for a script that _lists all files (even the hidden files) in the current directory, its parent and the `/boot` directory, in this order and in long format_, here `ls -la . .. /boot`, . is for the current directory and .. for its parent
 - **Task 12: _File type_**<br>
-    [12-file_type](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/12-file_type) - asked for a script that _prints the type of the file named iamafile (the file iamafile will be in the /tmp directory when we will run the script)_, here `file /tmp/iamafile`
+    [12-file_type](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/12-file_type) - asked for a script that _prints the type of the file named `iamafile` (the file iamafile will be in the `/tmp` directory when we will run the script)_, here `file /tmp/iamafile`
