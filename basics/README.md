@@ -9,5 +9,5 @@
 [Keyboard Shortcuts for Shell](https://www.howtogeek.com/181/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)<br>
 
 ## **Requirement**
--Allowed Editors: emacs, vi or vim
--
+- Allowed Editors: emacs, vi or vim
+- 
