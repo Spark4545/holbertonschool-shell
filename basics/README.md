@@ -7,3 +7,7 @@
 [Manipulating Files](http://linuxcommand.org/lc3_lts0050.php)<br>
 [Working with Commands](http://linuxcommand.org/lc3_lts0060.php)<br>
 [Keyboard Shortcuts for Shell](https://www.howtogeek.com/181/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)<br>
+
+## **Requirement**
+-Allowed Editors: emacs, vi or vim
+-
