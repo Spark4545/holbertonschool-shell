@@ -18,3 +18,15 @@
 - **Task 2: _There is no place like home_**<br>
     [2-bring_me_home](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/2-bring_me_home) - asked for a script that _changes the working directory to the user's home directory_, here `cd`
     
+- **Task 3: _The long format_**<br>
+    [3-listfiles](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/3-listfiles) - asked for a script that _display current directory contents in a long format_, here `ls -l`, the option -l is for the long format
+    
+- **Task 4: _Hidden files_**<br>
+    [4-listmorefiles](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/4-listmorefiles) - asked for a script that _display current directory contents, including hidden files, in long format_, here `ls -la`, the option -a for hidden files
+    
+- **Task 5: _I love numbers_**<br>
+    [5-listfilesdigitonly](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/5-listfilesdigitonly) - asked for a script that _display current directory contents, in long format, with user and group IDs displayed numerically, and hidden files_, here `ls -lan`, the option -n is for IDs
+    
+- **Task 6: _Welcome_**<br>
+    [6-firstdirectory](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/6-firstdirectory) - asked for a script that _creates a directory named my_first_directory in the /tmp/ directory_, here `mkdir /tmp/my_first_directory`
+    
