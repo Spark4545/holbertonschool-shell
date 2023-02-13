@@ -22,7 +22,7 @@
     [5-execute](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/5-execute) - asked for a script that _adds execute permission to the owner of the file `hello`_, here `chmod u+x hello`
     
 - **Task 6: _Multiple permissions_**<br>
-    [6-multiple_permissions]-(https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/6-multiple-permissions) - asked for a script that _adds execute permission to the owner and the group owner, and read permission to the other users, to the file `hello`_, here `chmod +114 hello`
+    [6-multiple_permissions](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/6-multiple_permissions) - asked for a script that _adds execute permission to the owner and the group owner, and read permission to the other users, to the file `hello`_, here `chmod +114 hello`
     
 - **Task 7: _Everybody!_**<br>
     [7-everybody](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/7-everybody) - asked for a script that _adds execution permission to the owner, the group owner and the other users, to the file `hello`_, here `chmod +111 hello`
@@ -38,3 +38,18 @@
     
 - **Task 11: _Directories_**<br>
     [11-directories](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/11-directories) - asked for a script that _adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users_, here `chmod -R +x */`
+
+- **Task 12: _More directories_**<br>
+    [12-directory_permissions](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/12-directory_permissions) - asked for a script that _creqtes a directory called `my_dir` with permissions 751 in the working directory_, here `mkdir -m 751 my_dir`
+    
+- **Task 13: _Change group_**<br>
+    [13-change_groups](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/13-change_groups) - asked for a script that _changes the group owner to `school` for the file `hello`_, here `chgrp school hello`
+    
+- **Task 14: _Owner and Group_**<br>
+    [14-change_owner_and_group](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/14-change_owner_and_group) - asked for a script that _changes the owner to `vincent` and the group owner to `staff` for all the files and directories in the working directory_, here `chown -R vincent:staff *`
+    
+- **Task 15: _Symbolic links_**<br>
+    [15-symbolic_link_permissions](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/15-symbolic_link_permissions) - asked for a script that _changes the owner and group owner of `_hello` to `vincent` and `staff` respectively_, here `chown -h vincent:staff _hello`
+    
+- **Task 16: _If only_**<br>
+    [16-if_only](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/16-if_only) - asked for a script that _changes the owner of the file `hello` to `vincent` only if it is owned by the user `guillaume`_, here `chown --from=guillaume vincent hello`
