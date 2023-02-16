@@ -57,7 +57,9 @@ Filters can be combined to perform more complex data processing tasks.</p>
     [1-confused_smiley](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/1-confused_smiley) - asked for a script that _displays a confused smiley `"(Ôo)'`_, here `echo \"\(Ôo\)\'`.
 <details>
 <summary>More about \ </summary>
-<p> \ are called "backslashes"
+<p> \ are called "backslashes", they are used as escape characters to indicate that the following character should be treated specially, or to prevent special treatment of a character that would otherwise be interpreted in a specific way.</p>
+</details>
+
 
 
 
