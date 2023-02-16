@@ -1,4 +1,4 @@
-# <p align="center" style="font-family:cursive">**SHELL, PERMISSIONS**</p>
+# <p align="center">**SHELL, PERMISSIONS**</p>
 <img src="https://cdn.mindmajix.com/blog/images/linux-file-permissions-07092020.png" width="100%">
 
 ## <p align="center">**Description**</p>
@@ -11,7 +11,14 @@
 
 Read (r): Allows a user to read the contents of a file or view the contents of a directory.
 Write (w): Allows a user to modify the contents of a file or add, delete or rename files within a directory.
-Execute (x): Allows a user to run a file as a program or enter a directory and access its contents.
+Execute (x): Allows a user to run a file as a program or enter a directory and access its contents.</p>
+
+### **Permission commands**
+<p>For each file or directory, there are three types of users to which permissions can be granted or denied:
+
+- <ins>Owner:</ins> The user who created the file or directory. The owner can be changed using the chown command.
+- <ins>Group:</ins> A set of users who share the same permissions for the file or directory. The group can be changed using the chgrp command.
+- <ins>Other:</ins> All users who are not the owner or in the group.</p>
 
 -----------------------
 
