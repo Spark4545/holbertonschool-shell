@@ -1,9 +1,11 @@
 # <p align="center">**SHELL, PERMISSIONS</p>**
 <img src="https://cdn.mindmajix.com/blog/images/linux-file-permissions-07092020.png" width="100%">
 
-## **Resources**
-[Permissions](http://linuxcommand.org/lc3_lts0090.php)<br>
-## **Description**
+## <p align="center">**Description**</p>
+
+### **Shell permissions**
+<p>shell permissions refer to the access controls that determine who is allowed to read, write, or execute a file or directory. Shell permissions are also referred to as file permissions, and they are managed using the shell command `chmod`.</p>
+-------------------
 ## **Tasks**
 - **Task 0: _My name is Betty_**<br>
     [0-iam_betty](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/0-iam_betty) - asked for a script that _switches the current user to `betty`_, here `su betty`
