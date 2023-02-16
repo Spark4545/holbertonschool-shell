@@ -1,5 +1,6 @@
 # <p align="center">**SHELL, PERMISSIONS</p>**
 <img src="https://cdn.mindmajix.com/blog/images/linux-file-permissions-07092020.png" width="100%">
+
 ## **Resources**
 [Permissions](http://linuxcommand.org/lc3_lts0090.php)<br>
 ## **Description**
