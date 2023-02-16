@@ -4,8 +4,17 @@
 ## <p align="center">**Description**</p>
 
 ### **Shell permissions**
-<p>shell permissions refer to the access controls that determine who is allowed to read, write, or execute a file or directory. Shell permissions are also referred to as file permissions, and they are managed using the shell command `chmod`.</p>
--------------------
+<p>Shell permissions refer to the access controls that determine who is allowed to read, write, or execute a file or directory. Shell permissions are also referred to as file permissions, and they are managed using the shell command `chmod`.</p>
+
+### **Types of permissions**
+<p>There are three types of permissions that can be granted or denied for a file or directory:
+
+Read (r): Allows a user to read the contents of a file or view the contents of a directory.
+Write (w): Allows a user to modify the contents of a file or add, delete or rename files within a directory.
+Execute (x): Allows a user to run a file as a program or enter a directory and access its contents.
+
+-----------------------
+
 ## **Tasks**
 - **Task 0: _My name is Betty_**<br>
     [0-iam_betty](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/0-iam_betty) - asked for a script that _switches the current user to `betty`_, here `su betty`
