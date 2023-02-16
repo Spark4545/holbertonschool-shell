@@ -9,9 +9,9 @@
 ### **Types of permissions**
 <p>There are three types of permissions that can be granted or denied for a file or directory:
 
-Read (r): Allows a user to read the contents of a file or view the contents of a directory.
-Write (w): Allows a user to modify the contents of a file or add, delete or rename files within a directory.
-Execute (x): Allows a user to run a file as a program or enter a directory and access its contents.</p>
+- <ins>Read (r):</ins> Allows a user to read the contents of a file or view the contents of a directory.
+- <ins>Write (w):</ins> Allows a user to modify the contents of a file or add, delete or rename files within a directory.
+- <ins>Execute (x):</ins> Allows a user to run a file as a program or enter a directory and access its contents.</p>
 
 ### **Permission commands**
 <p>For each file or directory, there are three types of users to which permissions can be granted or denied:
