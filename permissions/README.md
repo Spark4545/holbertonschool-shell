@@ -1,5 +1,5 @@
 # <p align="center">**SHELL, PERMISSIONS**</p>
-<img src="https://cdn.mindmajix.com/blog/images/linux-file-permissions-07092020.png" width="100%">
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cloudbooklet.com%2Ffile-permissions-in-linux-read-write-execute%2F&psig=AOvVaw2TMsri2xBLo2OdODQ88iyD&ust=1676625531034000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNDhzIDbmf0CFQAAAAAdAAAAABAD" width="100%">
 
 ## <p align="center">**Description**</p>
 
@@ -42,7 +42,7 @@
 
 ## **Tasks**
 - **Task 0: _My name is Betty_**<br>
-    [0-iam_betty](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/0-iam_betty) - asked for a script that _switches the current user to `betty`_, here `su betty`
+    [0-iam_betty](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/0-iam_betty) - asked for a script that _switches the current user to `betty`_, here `su betty`, `su` stands for "switch user"
 
 - **Task 1: _Who am i_**<br>
     [1-who_am_i](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/1-who_am_i) - asked for a script that _prints the effective username of the current user_, here `whoami`
