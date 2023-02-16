@@ -49,7 +49,7 @@
     [12-file_type](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/12-file_type) - asked for a script that _prints the type of the file named `iamafile` (the file iamafile will be in the `/tmp` directory when we will run the script)_, here `file /tmp/iamafile`
 
 - **Task 13: _We are symbols, and inhabit symbols_**<br>
-    [13-symbolic-link](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/13-symbolic-link) - asked for a script that _create a symbolic link to `/bin/ls`, named `__ls__`, the symbolic link should be created in the current working directory_, here `ln -s /bin/ls __ls__`, the option -s makes a symbolic link instead of a hark link
+    [13-symbolic-link](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/13-symbolic_link) - asked for a script that _create a symbolic link to `/bin/ls`, named `__ls__`, the symbolic link should be created in the current working directory_, here `ln -s /bin/ls __ls__`, the option -s makes a symbolic link instead of a hark link
     
 - **Task 14: _Copy HTML Files_**<br>
     [14-copy_html](https://github.com/Spark4545/holbertonschool-shell/blob/master/basics/14-copy_html) - asked for a script that _copies all the HTML from the current working directory to its parent, but only copies the one that doesn't exist in the parent directory or were newer than the versions in the parent directory_, here `cp -rua *.html ../`, the option -r is to copy directory and its files or subdirectory, option -u is to copy only if the source file is newer than the destination file or when the destination file is missing
