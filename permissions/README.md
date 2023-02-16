@@ -1,5 +1,4 @@
 # <p align="center">**SHELL, PERMISSIONS**</p>
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cloudbooklet.com%2Ffile-permissions-in-linux-read-write-execute%2F&psig=AOvVaw2TMsri2xBLo2OdODQ88iyD&ust=1676625531034000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNDhzIDbmf0CFQAAAAAdAAAAABAD" width="100%">
 
 ## <p align="center">**Description**</p>
 
