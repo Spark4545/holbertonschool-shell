@@ -69,19 +69,44 @@ Filters can be combined to perform more complex data processing tasks.</p>
 - **Task 4: _Last lines of a file_**<br>
     [4-lastlines](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/4-lastlines) - asked for a script that _display the last 10 lines of `/etc/passwd`_, here `tail /etc/passwd`
 <details>
-<summary>`More about `tail`` </summary>
+<summary>More about `tail` </summary>
 <p>The `tail` command is a commonly used command that display the last few lines of a file or input stream.
 Here are some usefull flags:
 * -n, output the last 'number' lines (10 default)
 * -c, output the last 'number' bytes (10 default)
-* -q suppress headers when displaying multiple files
-* -v display headers when displaying multiple files (default)
- </p>
+* -q, suppress headers when displaying multiple files
+* -v, display headers when displaying multiple files (default)
+* -f, output appended data as the file grows
+* --retry, keep trying to open a file even if it is inaccessible or has been renamed  
+</p>
 </details>
 
 - **Task 5: _I'd prefer the first ones actually_**<br>
     [5-firstlines](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/5-firstlines) - asked for a script that _display the first 10 lines of `/etc/passwd`_, here `head /etc/passwd`
+<details>
+<summary>More about `tail` </summary>
+<p>Like `tail`, `head` command is commonly use to display the first few lines of a file or input stream.
+Here are some usefull flags:
+* -n, output the last 'number' lines (10 default)
+* -c, output the last 'number' bytes (10 default)
+* -q, suppress headers when displaying multiple files
+* -v, display headers when displaying multiple files (default)
+</p>
+</details>
 
+- **Task 6: _Line #2_**<br>
+    [6-third_line](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/6-third_line) - asked for a script that _display the third line of the file `iacta`_, here `head -n 3 iacta | tail -n 1`
 
-
+- **Task 7: _It is a good file that cuts iron without making a noise_**<br>
+    [7-file](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/7-file) - asked for a script that _creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text `Best School` ending by a new line_, here `echo -e "Best School" >> "\\*\\\\'\"Best School\"\\'\\\\*$\\?\\*\\*\\*\\*\\*:)"`
+<details>
+<summary>More about `tail` </summary>
+<p>Like `tail`, `head` command is commonly use to display the first few lines of a file or input stream.
+Here are some usefull flags:
+* -n, output the last 'number' lines (10 default)
+* -c, output the last 'number' bytes (10 default)
+* -q, suppress headers when displaying multiple files
+* -v, display headers when displaying multiple files (default)
+</p>
+</details>
 
