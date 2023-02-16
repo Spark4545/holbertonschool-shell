@@ -16,11 +16,16 @@ The following operators are commonly used for I/O redirection:
 </p>
 
 ### **Filters**
-<p>For each file or directory, there are three types of users to which permissions can be granted or denied:
+<p>Filters are commands that accept input from standard input and output to standard output, making them ideal for processing and manipulating data. They are often used in combination with I/O redirection to process input streams and produce new output streams.
 
-- <ins>Owner:</ins> The user who created the file or directory. The owner can be changed using the `chown` command.
-- <ins>Group:</ins> A set of users who share the same permissions for the file or directory. The group can be changed using the `chgrp` command.
-- <ins>Other:</ins> All users who are not the owner or in the group.</p>
+Some common filters include:
+
+- `grep`: searches for specific patterns in input
+- `sort`: sorts lines of text
+- `sed`: performs text transformations
+- `awk`: processes and manipulates text data
+
+Filters can be combined to perform more complex data processing tasks.</p>
 
 ### **Conclusion**
 <p>Understanding shell permissions is an essential skill for system administrators, as they are often responsible for managing access to files and directories on multiple computers or servers. By correctly setting and managing permissions, administrators can ensure that their systems are secure and that users have the access they need to do their work effectively.</p>
