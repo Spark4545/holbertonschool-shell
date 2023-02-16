@@ -20,8 +20,23 @@
 - <ins>Group:</ins> A set of users who share the same permissions for the file or directory. The group can be changed using the `chgrp` command.
 - <ins>Other:</ins> All users who are not the owner or in the group.</p>
 
-## **Conclusion**
+### **Conclusion**
 <p>Understanding shell permissions is an essential skill for system administrators, as they are often responsible for managing access to files and directories on multiple computers or servers. By correctly setting and managing permissions, administrators can ensure that their systems are secure and that users have the access they need to do their work effectively.</p>
+
+## **Resources**
+* [Permissions](http://linuxcommand.org/lc3_lts0090.php)
+
+## **Requirements**
+<p>
+- Allowed editors: vi, vim, emacs
+- All your scripts will be tested on Ubuntu 20.04 LTS
+- All your scripts should be exactly two lines long ($ wc -l file should print 2)
+- All your files should end with a new line (why?)
+- The first line of all your files should be exactly #!/bin/bash
+- A README.md file, at the root of the folder of the project, describing what each script is doing
+- You are not allowed to use backticks, &&, || or ;
+- All your files must be executable
+</p>
 
 -----------------------
 
