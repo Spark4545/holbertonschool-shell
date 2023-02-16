@@ -1,7 +1,7 @@
-# **SHELL, PERMISSIONS**
-## **Documentation**
+# <p align="center">**SHELL, PERMISSIONS</p>**
+## **Resources**
 [Permissions](http://linuxcommand.org/lc3_lts0090.php)<br>
-
+## **Description**
 ## **Tasks**
 - **Task 0: _My name is Betty_**<br>
     [0-iam_betty](https://github.com/Spark4545/holbertonschool-shell/blob/master/permissions/0-iam_betty) - asked for a script that _switches the current user to `betty`_, here `su betty`
