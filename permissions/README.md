@@ -9,16 +9,19 @@
 ### **Types of permissions**
 <p>There are three types of permissions that can be granted or denied for a file or directory:
 
-- <ins>Read (r):</ins> Allows a user to read the contents of a file or view the contents of a directory.
-- <ins>Write (w):</ins> Allows a user to modify the contents of a file or add, delete or rename files within a directory.
-- <ins>Execute (x):</ins> Allows a user to run a file as a program or enter a directory and access its contents.</p>
+- <ins>Read (`r`):</ins> Allows a user to read the contents of a file or view the contents of a directory.
+- <ins>Write (`w`):</ins> Allows a user to modify the contents of a file or add, delete or rename files within a directory.
+- <ins>Execute (`x`):</ins> Allows a user to run a file as a program or enter a directory and access its contents.</p>
 
 ### **Permission commands**
 <p>For each file or directory, there are three types of users to which permissions can be granted or denied:
 
-- <ins>Owner:</ins> The user who created the file or directory. The owner can be changed using the chown command.
-- <ins>Group:</ins> A set of users who share the same permissions for the file or directory. The group can be changed using the chgrp command.
+- <ins>Owner:</ins> The user who created the file or directory. The owner can be changed using the `chown` command.
+- <ins>Group:</ins> A set of users who share the same permissions for the file or directory. The group can be changed using the `chgrp` command.
 - <ins>Other:</ins> All users who are not the owner or in the group.</p>
+
+## **Conclusion**
+<p>Understanding shell permissions is an essential skill for system administrators, as they are often responsible for managing access to files and directories on multiple computers or servers. By correctly setting and managing permissions, administrators can ensure that their systems are secure and that users have the access they need to do their work effectively.</p>
 
 -----------------------
 
