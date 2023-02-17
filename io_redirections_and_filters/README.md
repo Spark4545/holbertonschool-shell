@@ -71,13 +71,13 @@ Filters can be combined to perform more complex data processing tasks.</p>
 <details>
 <summary>More about `tail` </summary>
 <p>The `tail` command is a commonly used command that display the last few lines of a file or input stream.
-Here are some usefull flags:
-- -n, output the last 'number' lines (10 default)
-- -c, output the last 'number' bytes (10 default)
-- -q, suppress headers when displaying multiple files
-- -v, display headers when displaying multiple files (default)
-- -f, output appended data as the file grows
-- --retry, keep trying to open a file even if it is inaccessible or has been renamed  
+Here are some usefull flags:<br>
+* -n, output the last 'number' lines (10 default)<br>
+* -c, output the last 'number' bytes (10 default)<br>
+* -q, suppress headers when displaying multiple files<br>
+* -v, display headers when displaying multiple files (default)<br>
+* -f, output appended data as the file grows<br>
+* --retry, keep trying to open a file even if it is inaccessible or has been renamed  
 </p>
 </details>
 
@@ -86,10 +86,10 @@ Here are some usefull flags:
 <details>
 <summary>More about `head` </summary>
 <p>Like `tail`, `head` command is commonly use to display the first few lines of a file or input stream.
-Here are some usefull flags:
-* -n, output the last 'number' lines (10 default)
-* -c, output the last 'number' bytes (10 default)
-* -q, suppress headers when displaying multiple files
+Here are some usefull flags:<br>
+* -n, output the last 'number' lines (10 default)<br>
+* -c, output the last 'number' bytes (10 default)<br>
+* -q, suppress headers when displaying multiple files<br>
 * -v, display headers when displaying multiple files (default)
 </p>
 </details>
@@ -101,12 +101,22 @@ Here are some usefull flags:
     [7-file](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/7-file) - asked for a script that _creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text `Best School` ending by a new line_, here `echo -e "Best School" >> "\\*\\\\'\"Best School\"\\'\\\\*$\\?\\*\\*\\*\\*\\*:)"`
 <details>
 <summary>More about `echo` </summary>
-<p>The `echo` command is a common command in the shell that allows you to print text to the terminal.
-* -n, prevent the trailing newline character from being printed
-* -e, allows the interpretation of backslash escapes
-* -E, disables the interpretation of backslash escapes
-* -p, causes the output to be read from the user, rather than from the command line arguments
+<p>The `echo` command is a common command in the shell that allows you to print text to the terminal.<br>
+* -n, prevent the trailing newline character from being printed<br>
+* -e, allows the interpretation of backslash escapes<br>
+* -E, disables the interpretation of backslash escapes<br>
+* -p, causes the output to be read from the user, rather than from the command line arguments<br>
 * -s, same as -p but it is not displayed on the terminal (for password)
 </p>
 </details>
 
+- **Task 8: _Save current state of directory_**<br>
+    [8-cwd_state](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/8-cwd_state) - asked for a script that _writes into the file `ls_cwd_content` the result of the command `ls -la`. If the file `ls_cwd_content` already exists, it should be overwritten. If the file `ls_cwd_content` does not exist, create it_, here `ls -la > ls_cwd_content`
+    
+- **Task 9: _Duplicate last line_**<br>
+    [9-duplicate_last_line](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/9-duplicate_last_line) - asked for a script that _duplicates the last line of the file `iacta`_, here `tail -n 1 iacta >> iacta` 
+    
+- **Task 10: _No more javascript_**<br>
+    [9-duplicate_last_line](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/9-duplicate_last_line) - asked for a script that _deletes all the regular files (not the directories) with a `.js` extension that are present in the current directory and all its subfolders_, here `find . -type f -name '*.js' -delete`  
+    
+    
