@@ -72,12 +72,12 @@ Filters can be combined to perform more complex data processing tasks.</p>
 <summary>More about `tail` </summary>
 <p>The `tail` command is a commonly used command that display the last few lines of a file or input stream.
 Here are some usefull flags:
-* -n, output the last 'number' lines (10 default)
-* -c, output the last 'number' bytes (10 default)
-* -q, suppress headers when displaying multiple files
-* -v, display headers when displaying multiple files (default)
-* -f, output appended data as the file grows
-* --retry, keep trying to open a file even if it is inaccessible or has been renamed  
+- -n, output the last 'number' lines (10 default)
+- -c, output the last 'number' bytes (10 default)
+- -q, suppress headers when displaying multiple files
+- -v, display headers when displaying multiple files (default)
+- -f, output appended data as the file grows
+- --retry, keep trying to open a file even if it is inaccessible or has been renamed  
 </p>
 </details>
 
