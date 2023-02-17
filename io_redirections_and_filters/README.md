@@ -140,29 +140,29 @@ Here are some usefull flags:<br>
 - **Task 17: _I hate bins_**<br>
     [17-hidethisword](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/17-hidethisword) - asked for a script that _display all the lines in the file `/etc/passwd` that do not contain the pattern “bin”_, here `grep -L bin /etc/passwd`
 
-- **Task 18: _?_**<br>
-    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+- **Task 18: _Letters only please_**<br>
+    [18-letteronly](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/18-letteronly) - asked for a script that _display all lines of the file `/etc/ssh/sshd_config` starting with a letter (include capital letters as well)_, here `grep ^[[:alpha:]] /etc/ssh/sshd_config`
 
-- **Task 19: _?_**<br>
-    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+- **Task 19: _A to Z_**<br>
+    [19-AZ](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/19-AZ) - asked for a script that _replace all characters A and c from input to Z and e respectively_, here `tr Ac Ze`
 
-- **Task 20: _?_**<br>
-    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+- **Task 20: _Without C, you would live in hiago_**<br>
+    [20-hiago](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/20-hiago) - asked for a script that _removes all letters `c` and `C` from input_, here `tr -d Cc`
 
-- **Task 21: _?_**<br>
-    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+- **Task 21: _esreveR_**<br>
+    [21-reverse](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/21-reverse) - asked for a script that _reverse its input_, here `rev`
 
-- **Task 22: _?_**<br>
-    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+- **Task 22: _DJ Cut Killer_**<br>
+    [22-users_and_homes](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/22-users_and_homes) - asked for a script that _displays all users and their home directories, sorted by users (based on the `/etc/passwd` file)_, here `cut -d ":" -f 1,6 /etc/passwd | sort`
 
-- **Task 23: _?_**<br>
-    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+- **Task 23: _Empty casks make the most noise_**<br>
+    [23-empty_casks](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/23-empty_casks) - asked for a script that _ finds all empty files and directories in the current directory and all sub-directories (Only th names of the files and directory should be displayed; hidden files should be displayed; one file name per line; the mlisting should end with a new line; do not use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`)_, here `find . -empty | rev | cut -d "/" -f 1 | rev`
 
-- **Task 24: _?_**<br>
-    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+- **Task 24: _A gif is worth ten thousand words_**<br>
+    [24-gifs](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/24-gifs) - asked for a script that _ lists all the files with a .gif extension in the current directory and all its sub-directories (hiiden files listed; only files no directories; name without extensions; sorted by byte value, but case-insensitive; one name per line; list end with a new line; do not use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`)_, here `find -type f -name "*.gif" | rev | cut -d '/' -f 1 | cut -d'.' -f 2,3 | rev | sort -Vf`
 
-- **Task 25?: _?_**<br>
-    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+- **Task 25?: _Acrostic_**<br>
+    [25-acrostic](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/25-acrostic) - asked for a script that _decodes acrostics that use the first letter of each line (do not use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`)_, here `echo -ne $(cut -c-1 | tr -d '\n')'\n'`
 
-- **Task 26: _?_**<br>
-    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+- **Task 26: _The biggest fan_**<br>
+    [26-the_biggest_fan](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/26-the_biggest_fan) - asked for a script that _parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests (ordered by number of requests, most active host or IP at the top; do not use `basename`, `grep`, `egrep`, `fgrep` or `rgrep)_, here `tail -n +2 | cut -f 1 | sort | uniq -c | sort -nr -k 1,1 | cut -c 9- | head -11`
