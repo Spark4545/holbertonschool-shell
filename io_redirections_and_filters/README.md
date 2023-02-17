@@ -117,6 +117,52 @@ Here are some usefull flags:<br>
     [9-duplicate_last_line](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/9-duplicate_last_line) - asked for a script that _duplicates the last line of the file `iacta`_, here `tail -n 1 iacta >> iacta` 
     
 - **Task 10: _No more javascript_**<br>
-    [9-duplicate_last_line](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/9-duplicate_last_line) - asked for a script that _deletes all the regular files (not the directories) with a `.js` extension that are present in the current directory and all its subfolders_, here `find . -type f -name '*.js' -delete`  
+    [9-duplicate_last_line](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/9-duplicate_last_line) - asked for a script that _deletes all the regular files (not the directories) with a `.js` extension that are present in the current directory and all its subfolders_, here `find . -type f -name '*.js' -delete`    
     
-    
+- **Task 11: _Don't just count your directories, make your directories count_**<br>
+    [11-directories](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/11-directories) - asked for a script that _counts the number of directories and sub-directories in the current directory (the current and parent directory shouldn't be taken into account, hidden directories should be counted)_, here `find . -mindepth 1 -type d | wc -l`
+
+- **Task 12: _What’s new_**<br>
+    [12-newest_files](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/12-newest_files) - asked for a script that _displays the 10 newest files in the current directory (one file per line, sorted from the newest to the oldest)_, here `ls -t . | head`
+
+- **Task 13: _Being unique is better than being perfect_**<br>
+    [13-unique](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/13-unique) - asked for a script that _ takes a list of words as input and prints only words that appear exactly once (input format: one line, one word; output format: one line, one word; words should be sorted)_, here `sort | uniq -u`
+
+- **Task 14: _It must be in that file_**<br>
+    [14-findthatword](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/14-findthatword) - asked for a script that _display lines containing the pattern “root” from the file `/etc/passwd`_, here `grep root /etc/passwd`
+
+- **Task 15: _Count that word_**<br>
+    [15-countthatword](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/15-countthatword) - asked for a script that _display the number of lines that contain the pattern “bin” in the file `/etc/passwd`_, here `grep -c bin /etc/passwd`
+
+- **Task 16: _What's next?_**<br>
+    [16-whatsnext](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/16-whatsnext) - asked for a script that _display lines containing the pattern “root” and 3 lines after them in the file `/etc/passwd`_, here `grep -A 3 root /etc/passwd`
+
+- **Task 17: _I hate bins_**<br>
+    [17-hidethisword](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/17-hidethisword) - asked for a script that _display all the lines in the file `/etc/passwd` that do not contain the pattern “bin”_, here `grep -L bin /etc/passwd`
+
+- **Task 18: _?_**<br>
+    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+
+- **Task 19: _?_**<br>
+    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+
+- **Task 20: _?_**<br>
+    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+
+- **Task 21: _?_**<br>
+    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+
+- **Task 22: _?_**<br>
+    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+
+- **Task 23: _?_**<br>
+    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+
+- **Task 24: _?_**<br>
+    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+
+- **Task 25?: _?_**<br>
+    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
+
+- **Task 26: _?_**<br>
+    [?](https://github.com/Spark4545/holbertonschool-shell/blob/master/io_redirection_and_filters/?) - asked for a script that _?_, here `?`
