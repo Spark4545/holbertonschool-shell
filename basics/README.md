@@ -1,12 +1,35 @@
-# **SHELL, BASICS**
-## **Documentation**
-[What is "the Shell"?](http://linuxcommand.org/lc3_lts0010.php)<br>
-[Navigation](http://linuxcommand.org/lc3_lts0020.php)<br>
-[Looking Around](http://linuxcommand.org/lc3_lts0030.php)<br>
-[A Guided Tour](http://linuxcommand.org/lc3_lts0040.php)<br>
-[Manipulating Files](http://linuxcommand.org/lc3_lts0050.php)<br>
-[Working with Commands](http://linuxcommand.org/lc3_lts0060.php)<br>
-[Keyboard Shortcuts for Shell](https://www.howtogeek.com/181/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)<br>
+# <p align="center">**SHELL, PERMISSIONS**</p>
+
+<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/205/image.jpg" width="100%">
+
+## <p align="center">**Description**</p>
+### **Introduction**
+
+<p>The shell is a command-line interface (CLI) used for interacting with a computer's operating system. It's a powerful tool that allows you to perform a variety of tasks, such as navigating your file system, managing files and directories, and running programs and scripts.<br>
+
+There are many different types of shells available, but the most common one used on Unix-based systems is called the Bash shell. When you open a terminal or command prompt on your computer, you're interacting with the shell.</p>
+
+### **Shell basic commands**
+Here are some common Bash shell commands:<br>
+
+- ls: Lists the files and directories in the current working directory.<br>
+- cd: Changes the current working directory.<br>
+- mkdir: Creates a new directory.<br>
+- rm: Removes files or directories.<br>
+- cp: Copies files from one location to another.<br>
+- mv: Moves files from one location to another.<br>
+- pwd: This command stands for "print working directory". It prints the full path of the current working directory to the terminal.<br>
+- less: This command is used to view the contents of a file in the terminal. It allows you to scroll through the file and search for specific text.<br>
+- file: This command is used to determine the type of a file. It outputs information about the file's format and content.<br>
+- ln: This command is used to create a link between files. There are two types of links that can be created: hard links and symbolic links.<br>
+- type: This command is used to determine the type of a command or shell keyword. It can tell you whether a command is a built-in shell command, an external binary, or an alias.<br>
+- which: This command is used to locate the binary executable file that corresponds to a given command or program.<br>
+- help: This command displays information about built-in shell commands. It can be used to display a summary of a command's usage and options.<br>
+- man: This command displays the manual pages for a given command. The manual pages provide detailed information about a command's usage, options, and behavior.<br>
+
+### **Conclusion**
+
+
 
 ## **Tasks**
 - **Task 0: _Where am I?_**<br>
